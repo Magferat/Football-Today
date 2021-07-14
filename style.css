@@ -1,0 +1,68 @@
+/* ---------------------------
+   Top Section's Styles 
+--------------------------*/
+#top{
+    background: #2D25A0;
+    width: 100%;
+    height: 677px;
+    position: absolute;
+    left: 0px; top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+/*---------Font-------- */ 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+h1{
+    font-size: 64px;
+    font-weight: 700;
+    color: white;
+}
+#copa-watch{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10.84%;
+    padding-top: 150px;
+
+}
+.copa{
+    width: 485px; 
+    height: 230px;
+    
+}
+.watch{
+    background-color: #e02c6d;
+    width: 168px;
+    height: 44px;
+    text-align: center;
+    color: white ;
+    font-weight: 500;
+    font-size: 16px;
+} 
+.banner{
+    margin-right: 33%;
+    padding-top: 140px;
+    position: absolute;
+    left: 65%;
+} 
+
+.banner img{
+   width: 560px;
+   height: 438px;
+}
+#top:hover .banner{
+            
+            animation: kick 2s ease-in 1 forwards;
+}
+@keyframes kick {
+             0%{transition: img ;
+                transform: rotate(-35deg);
+                    transform-origin: top-right;  }             
+             
+             100%{ transition: 0;
+                transform: 0;
+                
+             }
+    
+}
+
